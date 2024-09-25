@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: none; /* Remover completamente o cabeçalho */
+}
+
+main {
+    margin: 20px auto; /* Ajuste a margem superior */
+    max-width: 1000px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #294f69; /* Cor atualizada */
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: normal; /* Remover itálico dos títulos */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.intro-text {
+    font-family: 'Georgia', serif; 
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#special-content {
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: #ff6347; 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6347; 
+    border-bottom: 2px solid #1e90ff;
+}
+
+/* Lista de navegação com borda */
+ul.navigation {
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.navigation li {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de resumo sem bordas */
+ul.resumo-moedas {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul.resumo-moedas li {
+    background-color: transparent; /* Remove o fundo */
+    padding: 0; /* Remove o padding */
+    margin-bottom: 10px;
+    border: none; /* Remove qualquer borda */
+    box-shadow: none; /* Remove sombras */
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 100px;
+    font-style: normal; /* Remover itálico do parágrafo */
+}
+
+footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+#Moedas {
+    color: #1e90ff;
+}
+
+figcaption {
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: center;
+    font-style: normal; /* Remover itálico do figcaption */
+}
+
+/* Remover o estilo itálico do <strong> */
+strong {
+    font-style: normal; 
+}
